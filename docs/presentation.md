@@ -77,7 +77,7 @@ FROM tabelnaam
     - `ORDER BY`
 - Maximum aantal rijen tonen
     - `LIMIT`
-- Statistische functies zoals `GROUP BY`, `AVERAGE`,`SUM`,...
+- Aggregaatsfuncties zoals `GROUP BY`, `AVERAGE`,`SUM`,...
     -  Zie hoofdstuk 8
 
 ---
@@ -93,6 +93,7 @@ FROM tabelnaam
 - `SELECT`
     - ophalen van data uit 1 of meer kolommen
     - `DISTINCT` zorgt ervoor dat de getoonde rijen allen uniek zijn
+        - OPM: `DISTINCT` is **performantie intensief**, het sorteert de volledige resultset, best te vermijden dus.
     - `*` selecteert alle kolommen
 - `FROM`
     - geeft aan uit welke `tabel`/`view` of `subquery` de gegevens afkomstig zijn
@@ -412,6 +413,8 @@ FROM tabelnaam
 ```
 - `ORDER BY`
     - Standaard gebeurt het sorteren in stijgende volgorde (volgens numerieke waarde, of volgens computercode bvb ASCII). Een dalende volgorde moet expliciet vermeld worden met `DESC`
+    - Merk op dat het `ORDER BY` statement vaak het langste duurt.
+        - Indien mogelijk is een `ORDER BY` clausule best te mijden wegens performantie.
     
 > Bekijk de [documentatie](https://www.w3schools.com/sql/sql_orderby.asp) | maak enkele [oefeningen](https://www.w3schools.com/sql/exercise.asp?filename=exercise_orderby1)
 ---
@@ -448,9 +451,9 @@ SELECT
 ,CategoryID
 ,UnitPrice 
 FROM Products 
-ORDER BY 
- CategoryID
-,UnitPrice DESC
+*ORDER BY 
+* CategoryID
+*,UnitPrice DESC
 ```
 ---
 
@@ -492,7 +495,25 @@ FROM Products
 ORDER BY ProductID DESC
 `LIMIT 10`
 ```
-> De laatste 5 producten zijn diegene met de hoogste **ID**.
+> De laatste 10 producten zijn diegene met de hoogste **ID**.
+---
+### `SELECT`
+# Uitvoering vs Syntax
+```sql
+SELECT * FROM tabelnaam 
+[WHERE voorwaarde(n)] 
+[ORDER BY {kolomnaam|volgnr}{ASC|DESC}[,...]
+```
+- Jammer maar helaas, is de **volgorde van uitvoering** van het bovenstaande statement is **niet gelijk aan de syntax**.
+- Het **einderesultaat** is de **cumul van meerdere tussenresultaten**.
+
+### Volgorde van uitvoering:
+1. Eerst wordt het `FROM` statement verwerkt.
+2. Nadien gebeurt er een **filtering** of **selectie** door het `WHERE` statement
+3. Vervolgens ondergaan de geselecteerde rijen een **projectie** door het `SELECT` statement
+4. Tot slot worden de geprojecteerde rijen **gesorteerd** door het `ORDER BY` statement
+
+
 ---
 ### `SELECT`
 # Oefeningen
@@ -504,3 +525,10 @@ ORDER BY ProductID DESC
 6. Geef nummer, naam en afdelingsnummer van alle werknemers, waarvan de familienaam start met een P en die in een afdeling werken beginnend met D en als 3° karakter een 1 hebben.
 
 
+---
+### Alias
+# TODO
+- Alias
+- Cast/Convert
+- Berekeningen
+- ...
