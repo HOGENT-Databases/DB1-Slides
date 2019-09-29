@@ -43,8 +43,7 @@ class: dark middle
 ### **S**tructured **Q**uery **L**anguage
 # Opmaak en commentaar
 ```sql
-sElEcT * fROM taBlE 
--- Selecteer alle kolommen van een specifieke tabel
+sElEcT * fROM taBlE  -- Selecteer alle kolommen van een tabel
 ```
 
 ```sql
@@ -55,8 +54,11 @@ FROM TABLE
         VAN tabel 
     */
 ```
-> SQL is case insensitive (in de meeste gevallen, PostgreSQL niet)
+> SQL is case insensitive (in de meeste gevallen)
 > Enters en spaties tellen niet tenzij ze tussen single quotes **'**...**'** vallen.
+
+1. **`--`** is een **inline-comment**, tekst op dezelfde lijn wordt in commentaar gezet.
+2. **`/* */`**  is een **multi-line comment**, alle tekst ertussen wordt als commentaar gezien.
 
 ---
 ### **D**ata **M**anipulation **L**anguage 
@@ -69,13 +71,13 @@ FROM tabelnaam
 [ORDER BY {kolomnaam|volgnr}{ASC|DESC}[,...]
 [LIMIT] [aantal]
 ```
-- Bevragen van data
+- Bevragen/projecteren van data
     -  `SELECT`
 - Filteren van data
     - `WHERE` 
 - Sorteren van data 
     - `ORDER BY`
-- Maximum aantal rijen tonen
+- Maximum aantal rijen
     - `LIMIT`
 - Aggregaatsfuncties zoals `GROUP BY`, `AVERAGE`,`SUM`,...
     -  Zie hoofdstuk 8
