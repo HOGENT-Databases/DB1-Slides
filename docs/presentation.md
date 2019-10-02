@@ -43,7 +43,7 @@ class: dark middle
 ### **S**tructured **Q**uery **L**anguage
 # Opmaak en commentaar
 ```sql
-sElEcT * fROM taBlE  -- Selecteer alle kolommen van een tabel
+SELECT * FROM table  -- Selecteer alle kolommen van een tabel
 ```
 
 ```sql
