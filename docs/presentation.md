@@ -209,7 +209,7 @@ FROM Products `WHERE ProductName >=  'A' and  ProductName < 'B'`
 **Wildcards** 
 - Zoeken naar patronen via `LIKE` | `NOT LIKE`
     - `%`  willekeurige tekenrij met 0 of meerdere tekens
-        - `bl*` : **bl**, **bl**ack, **bl**ue, en **bl**ob
+        - `bl%` : **bl**, **bl**ack, **bl**ue, en **bl**ob
     - `_`  1 willekeurig teken
         - `h_t` : h**o**t, h**a**t, en h**i**t
     - `[]`  een teken tussen de haakjes
