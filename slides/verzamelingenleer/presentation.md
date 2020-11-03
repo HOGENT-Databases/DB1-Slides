@@ -6,7 +6,7 @@ class: dark middle
 ---
 
 ### Verzamelingenleer
-# Te verwerken competenties
+# Te verwerven competenties
 
 **Kennen**
 - De definitie van een verzameling.
@@ -20,7 +20,7 @@ class: dark middle
 
 ---
 ### Verzamelingenleer
-# Te verwerken competenties
+# Te verwerven competenties
 
 **Kunnen**
 - Verzameling noteren aan de hand van opsomming.
@@ -32,8 +32,8 @@ class: dark middle
     - Kardinaalgetal (`#`)
     - Unie (`∪`)
     - Doorsnede (`∩`)
-    - Relatief complement (`\`)
-    - Absoluut complement (<sup>c</sup>)
+    - Relatieve complement (`\`)
+    - Absolute complement (<sup>c</sup>)
 
 ---
 ### Verzamelingenleer
@@ -443,3 +443,82 @@ C = {Alle veelvouden van 2 **en** 3 die kleiner zijn dan 10 en groter dan 0}
 C = {x | 0 < x < 10 waarbij x mod 3 = 0 **en** x mod 2 = 0 }
 
 **#(A ∩ B)** = 1
+
+---
+### Bewerkingen 
+# Relatief Complement
+A **\** B = het **relatief complement** van de verzameling A en B, de verzameling van alle elementen die tot A behoren maar niet tot B.
+
+Stel 
+- A = Boeken in bezit
+- B = Gelezen boeken
+- C = A **\** B = Alle unieke boeken waarvan ik eigenaar ben **en niet gelezen heb**.
+
+<img src="images/11.svg" alt="venndiagram" class="center" width="50%"/>
+
+---
+### Bewerkingen 
+# Relatief Complement
+C = A \ B 
+<img src="images/11.svg" alt="venndiagram" class="center" width="50%"/>
+```json
+C = 
+{
+     C# Fundamentals
+    ,De Lerarenkamer
+}
+```
+> Enkel de unieke waarden, waarbij de volgorde geen rol speelt.
+
+---
+### Relatief Complement 
+# Voorbeelden
+Stel: A = {1, 2, 5, 10}
+
+Dan geldt:
+
+- A \ {−1, 2} = {1, 5, 10}
+- A \ {3, 4} = A
+- A \ A = ∅
+    - dit geldt voor om het even welke verzameling A.
+- A \ ∅ = A
+    - dit geldt voor om het even welke verzameling A
+
+---
+### Bewerkingen 
+# Absolute Complement
+A<sup>c</sup> = het **abosulte complement** van de verzameling A, de verzameling van alle elementen die **tot 𝕌 behoren maar niet tot A**. In principe is dit gelijk aan 𝕌 \ A.
+
+Stel 
+- A = Gelezen boeken
+- A<sup>c</sup> = 𝕌 \ A =  Alle unieke boeken die ik **niet gelezen** heb.
+
+<img src="images/12.svg" alt="venndiagram" class="center" width="50%"/>
+
+---
+### Bewerkingen 
+# Absolute Complement
+C = A<sup>c</sup> 
+<img src="images/12.svg" alt="venndiagram" class="center" width="50%"/>
+```json
+C = Alle boeken in de context, zonder:
+{
+     Helaasheid der dingen
+    ,Inferno
+    ,The subtle art of not giving a f*ck
+}
+```
+
+---
+### Absolute Complement 
+# Voorbeelden
+Stel:
+- A = {1, 2, 5, 10}
+- 𝕌 = {x | x ∈ ℕ<sub>0</sub> en x ≤ 10}
+    - ℕ<sub>0</sub> : alle natuurlijke getallen zonder 0.
+
+Dan geldt:
+- A<sup>c</sup> = {3, 4, 6, 7, 8, 9}
+- 𝕌<sup>c</sup> = ∅
+- ∅<sup>c</sup> = 𝕌
+
