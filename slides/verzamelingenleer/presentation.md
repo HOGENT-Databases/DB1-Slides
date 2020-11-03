@@ -280,6 +280,7 @@ Met twee of meerdere verzamelingen nieuwe verzamelingen vormen, kan door gebruik
     - A ∩ B = ∅ Disjuncte verzamelingen 
 - **\\** Relatief complement
 - **<sup>c</sup>** Absoluut complement
+- **Δ** Symmetrisch verschil
 
 ---
 ### Bewerkingen 
@@ -521,4 +522,85 @@ Dan geldt:
 - A<sup>c</sup> = {3, 4, 6, 7, 8, 9}
 - 𝕌<sup>c</sup> = ∅
 - ∅<sup>c</sup> = 𝕌
+
+
+---
+### Bewerkingen 
+# Symmetrisch Verschil
+A Δ B = het **symmetrische verschil** van de verzameling A en B, de verzameling van alle elementen die **tot A OF B behoren maar niet tot A en B**.
+
+Stel 
+- A = Boeken in bezit
+- B = Gelezen boeken
+- C = A Δ B = Alle boeken die ik gelezen heb **of** waarvan ik eigenaar ben, maar niet diegene waarvan ik eigenaar ben **en** gelezen heb. 
+
+<img src="images/13.svg" alt="venndiagram" class="center" width="50%"/>
+
+---
+### Bewerkingen 
+# Symmetrisch Verschil
+C = A Δ B
+<img src="images/13.svg" alt="venndiagram" class="center" width="50%"/>
+```json
+C = 
+{
+     C# Fundamentals
+    ,De lerarenkamer
+    ,The subtle art of not giving a f*ck
+}
+```
+
+---
+### Symmetrisch Verschil 
+# Voorbeelden
+Stel:
+- A = {a, b, c, 1, 2, 3}
+- B = {x, y, z, 1, 2, 3}
+
+Dan geldt:
+- A Δ B = {a, b, c, x, y, z}
+- A Δ B = (A \ B) ∪ (B \ A)
+
+---
+class: dark middle
+
+# Verzamelingenleer
+> In de context van databanken
+
+---
+### Verzamelingenleer 
+# In de context van databanken
+Relationele databases zijn bijna volledig gebaseerd op verzamelingenleer.
+
+<img src="images/14.jpeg" alt="venndiagram" class="center" width="80%"/>
+
+---
+### Relationele Databanken
+# SQL Statements
+In feite zijn zelfs de meest gecompliceerde SQL statements niets meer dan bewerkingen op verzamelingen.
+
+<img src="images/15.png" alt="venndiagram" class="center" width="70%"/>
+
+---
+### Relationele Databanken
+# Lees: verzamelingenleer
+- Een `INNER JOIN` is slechts het **doorsnede** van twee verzamelingen.
+- Een `LEFT JOIN` is niets anders dan het vinden van het **relatieve completement** van de twee tabellen.
+- Een `FULL OUTER JOIN` is niets meer dan een **unie**
+- Een `FULL OUTER JOIN` met `NULL` waarden is het vinden van een **symmetrisch verschil**.
+
+> Hou dit in gedachten van zodra we beginnen over `JOINS` in de volgende lessen.
+
+---
+class: dark middle
+
+# Databases
+> Verzamelingenleer
+>
+> [Oefeningen]()
+**Link naar Workshop (TODO)**
+
+
+
+
 
