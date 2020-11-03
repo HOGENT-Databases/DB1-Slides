@@ -34,6 +34,7 @@ class: dark middle
     - Doorsnede (`∩`)
     - Relatieve complement (`\`)
     - Absolute complement (<sup>c</sup>)
+    - Symmetrisch verschil (`Δ`)
 
 ---
 ### Verzamelingenleer
