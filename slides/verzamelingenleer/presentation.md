@@ -86,7 +86,7 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
 # Omschrijving
 - De verzameling kreeg de naam **B**.
     -  **B** = {x | x is een positief en even geheel getal}
-- De elementen van een verzameling noteren we door omschrijvig
+- De elementen van een verzameling noteren we door omschrijving
     - B = {x | **x is een positief en even geheel getal**}
 - Spreek dit uit als
      - *"B is de verzameling van alle elementen x waarvoor geldt dat x een positief en even geheel getal is"*
