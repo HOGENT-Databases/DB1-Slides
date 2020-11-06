@@ -124,7 +124,7 @@ A = {1,2,3}
 - 9 ∉ A
 
 ---
-### Verzanelingen
+### Verzamelingen
 # Elementen die behoren tot
 Aan de hand van een venndiagram
 <img src="images/2.svg" alt="venndiagram" style="float:right;" width="30%"/>
