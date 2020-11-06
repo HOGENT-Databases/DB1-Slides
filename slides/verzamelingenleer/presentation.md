@@ -108,7 +108,7 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
     - Indien we willen aantonen dat de verzameling oneindig is gebruik dan **...** binnen het venndiagram.
 
 ---
-### Verzanelingen
+### Verzamelingen
 # Elementen die behoren tot
 Stel:
 A = {1,2,3}
