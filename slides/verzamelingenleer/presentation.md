@@ -587,7 +587,7 @@ In feite zijn zelfs de meest gecompliceerde SQL statements niets meer dan bewerk
 # Lees: verzamelingenleer
 - Een `INNER JOIN` is slechts het **doorsnede** van twee verzamelingen.
 - Een `LEFT JOIN` is niets anders dan het vinden van het **relatieve completement** van de twee tabellen.
-- Een `FULL OUTER JOIN` is niets meer dan een **unie**
+- Een `FULL OUTER JOIN` is niets meer dan een **unie**.
 - Een `FULL OUTER JOIN` met `NULL` waarden is het vinden van een **symmetrisch verschil**.
 
 > Hou dit in gedachten van zodra we beginnen over `JOINS` in de volgende lessen.
