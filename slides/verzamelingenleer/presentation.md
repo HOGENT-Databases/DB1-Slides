@@ -139,7 +139,7 @@ Aan de hand van een venndiagram
 - Q# ∉ Gekende Talen
 
 ---
-### Verzanelingen
+### Verzamelingen
 # Aantal elementen
 Het aantal elementen van een verzameling wordt het **kardinaalgetal** genoemd.
 
