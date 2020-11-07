@@ -90,7 +90,7 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
     - B = {x | **x is een positief en even geheel getal**}
 - Spreek dit uit als
      - *"B is de verzameling van alle elementen x waarvoor geldt dat x een positief en even geheel getal is"*
-- Eindig | Oneiding
+- Eindig | Oneindig
     - Verzamelingen door omschrijving kunnen **eindig** of **oneindig** zijn.
     - In dit geval is de verzameling B oneiding.
 
