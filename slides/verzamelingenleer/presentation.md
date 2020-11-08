@@ -92,7 +92,7 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
      - *"B is de verzameling van alle elementen x waarvoor geldt dat x een positief en even geheel getal is"*
 - Eindig | Oneiding
     - Verzamelingen door omschrijving kunnen **eindig** of **oneindig** zijn.
-    - In dit geval is de verzameling B oneiding.
+    - In dit geval is de verzameling B oneindig.
 
 ---
 ### Notaties
