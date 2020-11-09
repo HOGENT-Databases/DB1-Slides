@@ -2,6 +2,8 @@ class: dark middle
 
 # Databases
 > Verzamelingenleer
+>
+> Met dank aan N. Slaats
 
 ---
 
@@ -598,8 +600,7 @@ class: dark middle
 # Databases
 > Verzamelingenleer
 >
-> [Oefeningen]()
-**Link naar Workshop (TODO)**
+> Ga naar de [oefeningen](https://github.com/HOGENT-Databases/DB1-Workshops/blob/master/workshops/06-verzamelingenleer/exercises/exercises.md)
 
 
 
