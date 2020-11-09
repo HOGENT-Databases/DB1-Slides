@@ -206,7 +206,7 @@ Stel:
 - E = {x | x ∈ ℕ }
     - ℕ zijn alle natuurlijke getallen
 
-> Oefening: Welke verzamlingen zijn wel/geen deelverzamlingen van andere verzamelingen?
+> Oefening: Welke verzamelingen zijn wel/geen deelverzamelingen van andere verzamelingen?
 
 ---
 ### ⊆ Deelverzameling
