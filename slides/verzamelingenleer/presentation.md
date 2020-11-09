@@ -88,13 +88,13 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
 # Omschrijving
 - De verzameling kreeg de naam **B**.
     -  **B** = {x | x is een positief en even geheel getal}
-- De elementen van een verzameling noteren we door omschrijvig
+- De elementen van een verzameling noteren we door omschrijving
     - B = {x | **x is een positief en even geheel getal**}
 - Spreek dit uit als
      - *"B is de verzameling van alle elementen x waarvoor geldt dat x een positief en even geheel getal is"*
 - Eindig | Oneiding
     - Verzamelingen door omschrijving kunnen **eindig** of **oneindig** zijn.
-    - In dit geval is de verzameling B oneiding.
+    - In dit geval is de verzameling B oneindig.
 
 ---
 ### Notaties
@@ -110,7 +110,7 @@ Verzamelingen kunnen op meerdere manieren worden weergegeven.
     - Indien we willen aantonen dat de verzameling oneindig is gebruik dan **...** binnen het venndiagram.
 
 ---
-### Verzanelingen
+### Verzamelingen
 # Elementen die behoren tot
 Stel:
 A = {1,2,3}
@@ -126,7 +126,7 @@ A = {1,2,3}
 - 9 ∉ A
 
 ---
-### Verzanelingen
+### Verzamelingen
 # Elementen die behoren tot
 Aan de hand van een venndiagram
 <img src="images/2.svg" alt="venndiagram" style="float:right;" width="30%"/>
@@ -588,11 +588,11 @@ In feite zijn zelfs de meest gecompliceerde SQL statements niets meer dan bewerk
 ### Relationele Databanken
 # Lees: verzamelingenleer
 - Een `INNER JOIN` is slechts het **doorsnede** van twee verzamelingen.
-- Een `LEFT JOIN` is niets anders dan het vinden van het **relatieve completement** van de twee tabellen.
+- Een `LEFT JOIN` is niets anders dan het vinden van het **relatieve complement** van de twee tabellen.
 - Een `FULL OUTER JOIN` is niets meer dan een **unie**
 - Een `FULL OUTER JOIN` met `NULL` waarden is het vinden van een **symmetrisch verschil**.
 
-> Hou dit in gedachten van zodra we beginnen over `JOINS` in de volgende lessen.
+> Hou dit in gedachten wanneer we `JOINS` behandelen in de volgende lessen.
 
 ---
 class: dark middle
