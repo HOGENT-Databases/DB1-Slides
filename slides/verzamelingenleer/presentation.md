@@ -248,7 +248,7 @@ Stel:
 - E = {x | x ∈ ℕ }
     - ℕ zijn alle natuurlijke getallen
 
-> Oefening: Welke verzamlingen zijn wel/geen **echte** deelverzamlingen van andere verzamelingen?
+> Oefening: Welke verzamelingen zijn wel/geen **echte** deelverzamelingen van andere verzamelingen?
 
 ---
 ### ⊂ Echte Deelverzameling
